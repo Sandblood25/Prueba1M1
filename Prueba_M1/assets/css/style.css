@@ -1,0 +1,37 @@
+/* Reset */
+body, body *{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+/*Margenes para los elementos*/
+.MargenContenedor{
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.colorborde{
+    border-bottom: #5ECFCF;
+    border-bottom-style: solid;
+}
+
+.margenElementos{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/* Barra Navegacion */
+nav img{
+    width: 3rem;
+}
+
+.QuienesSomos{
+    background-color: black;
+    color: white;
+    height: 150rem;
+}
+
+.card-body{
+    background-color: #000;
+}
