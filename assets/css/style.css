@@ -5,6 +5,14 @@ body, body *{
     border: 0px;
 }
 
+.color1{
+    background-color:#5ECFCF ;
+}
+
+.text1{
+font-size: 1rem;
+}
+
 /*Margenes para los elementos*/
 .MargenContenedor{
     margin-right: 2rem;
@@ -26,12 +34,34 @@ nav img{
     width: 3rem;
 }
 
+/* carusel */
+#carouselExampleControls{
+    height: 80%;
+}
+
 .QuienesSomos{
     background-color: black;
     color: white;
-    height: 150rem;
+    height: 35%;
 }
 
-.card-body{
+.bg-card{
     background-color: #000;
+    border-width: 0px;
+}
+
+.img1{
+    height: 40%;
+}
+
+.Fondosections{
+    background-color: black;
+    color: white;
+}
+
+footer{
+    height: 4rem;
+    background-color: #5ECFCF;
+    color: white;
+    padding-top: 1rem;
 }
