@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 /* Reset */
 body, body *{
     margin: 0px;
@@ -35,8 +39,13 @@ nav img{
 }
 
 /* carusel */
-#carouselExampleControls{
-    height: 80%;
+#carouselExampleControls img{
+    height: 50vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 0 auto;
 }
 
 .QuienesSomos{
@@ -64,4 +73,11 @@ footer{
     background-color: #5ECFCF;
     color: white;
     padding-top: 1rem;
+}
+
+.box{
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    -o-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out;
 }
