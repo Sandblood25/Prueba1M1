@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <!-- Navegador principar y carusel -->
+    <!-- Navegador principar, carusel y tooltips -->
         <nav class="navbar navbar-expand-lg navbar-dark MargenContenedor fixed-top">
             <a class="navbar-brand" href="#carouselExampleControls"><img src="./assets/img/viajes.svg" alt="">Viajes Chile</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,16 +23,16 @@
             <div class="collapse navbar-collapse box" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto box">
                 <li class="nav-item">
-                  <a class="nav-link" href="#carouselExampleControls">Inicio</a>
+                  <a class="nav-link" href="#carouselExampleControls" data-toggle="tooltip" data-placement="bottom" title="Este es el Inicio">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">¿Quienes somos?</a>
+                    <a class="nav-link" href="#quiensomos" data-toggle="tooltip" data-placement="bottom" title="Este es la seccion de Inicio">¿Quienes somos?</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Destacados</a>
+                    <a class="nav-link" href="#destacados" data-toggle="tooltip" data-placement="bottom" title="Este es la seccion de destacados">Destacados</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contactos</a>
+                    <a class="nav-link" href="#contacto" data-toggle="tooltip" data-placement="bottom" title="Este es la seccion de Contactos">Contactos</a>
                 </li>
             </div>
           </nav>
@@ -88,7 +88,7 @@
         </section>
 
         <!-- destacados -->
-      <section class="Destacados margenElementos Fondosections">
+      <section id="destacados" class="Destacados margenElementos Fondosections">
 
         <h3 class="text-center margenElementos MargenContenedor colorborde">Destacados</h3>
 
@@ -126,7 +126,7 @@
       </section>
 
       <!-- Contacto -->
-      <section class="Contacto margenElementos Fondosections">
+      <section id="contacto" class="Contacto margenElementos Fondosections">
         <h3 class="text-center margenElementos MargenContenedor colorborde">Contacto</h3>
 
         <!-- formulario -->
